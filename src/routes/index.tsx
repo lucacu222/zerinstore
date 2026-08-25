@@ -204,12 +204,12 @@ function Index() {
             AIM<span className="text-flame">FIRE</span>
           </button>
           <div className="hidden items-center gap-8 md:flex">
-            {[
+            {([
               ["Recursos", "recursos"],
               ["Como funciona", "como"],
               ["Planos", "planos"],
               ["Dúvidas", "faq"],
-            ].map(([label, id]) => (
+            ] as const).map(([label, id]) => (
               <button
                 key={id}
                 onClick={() => scrollTo(id)}
