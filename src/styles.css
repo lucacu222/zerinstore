@@ -2,6 +2,17 @@
 @source "../src";
 @import "tw-animate-css";
 
+@theme inline {
+  --font-display: "Orbitron", sans-serif;
+  --font-sans: "Rajdhani", sans-serif;
+  --color-neon: var(--neon);
+  --color-gold: var(--gold);
+  --color-flame: var(--flame);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+}
+
 @custom-variant dark (&:is(.dark *));
 
 /*
