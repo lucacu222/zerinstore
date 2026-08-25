@@ -235,12 +235,12 @@ function Index() {
         </nav>
         {menuOpen && (
           <div className="border-t border-border/60 bg-ink-3 px-5 py-4 md:hidden">
-            {[
+            {([
               ["Recursos", "recursos"],
               ["Como funciona", "como"],
               ["Planos", "planos"],
               ["Dúvidas", "faq"],
-            ].map(([label, id]) => (
+            ] as const).map(([label, id]) => (
               <button
                 key={id}
                 onClick={() => scrollTo(id)}
