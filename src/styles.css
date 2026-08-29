@@ -3,8 +3,8 @@
 @import "tw-animate-css";
 
 @theme inline {
-  --font-display: "Orbitron", sans-serif;
-  --font-sans: "Rajdhani", sans-serif;
+  --font-display: "Bebas Neue", sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
   --color-neon: var(--neon);
   --color-gold: var(--gold);
   --color-flame: var(--flame);
@@ -145,6 +145,12 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-family: var(--font-sans);
+    font-weight: 500;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: 0.02em;
   }
 }
 
