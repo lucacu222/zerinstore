@@ -77,17 +77,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "AIM FIRE — Auxílio de Mira Free Fire #1" },
+      { title: "ZERIN STORE — Produtos digitais" },
       {
         name: "description",
         content:
-          "Auxílio de mira para Free Fire com anti-ban, atualizações automáticas e suporte 24h. Domine cada partida. Garanta sua chave agora.",
+          "Produtos digitais com entrega imediata. Canva, ChatGPT, Lovable e mais. Compra segura e suporte direto.",
       },
-      { property: "og:title", content: "AIM FIRE — Auxílio de Mira Free Fire #1" },
+      { property: "og:title", content: "ZERIN STORE — Produtos digitais" },
       {
         property: "og:description",
         content:
-          "Auxílio de mira Free Fire com anti-ban e suporte 24h. Domine cada partida.",
+          "Produtos digitais com entrega imediata. Compra segura e suporte direto.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -101,7 +101,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap",
       },
       {
         rel: "stylesheet",
@@ -118,7 +118,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <HeadContent />
       </head>
